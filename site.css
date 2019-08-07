@@ -1,0 +1,95 @@
+body {
+  padding: 0;
+  
+  width:100%;
+  fontsize: 14px;
+  line-height: 1.5;
+ 
+  font-family: 'Impact', sans-serif;
+  color: black; 
+}
+
+.sm-title-container {
+  width: 100%;
+  font-size: 50px;
+  overflow: hidden;
+}
+
+.sm-title-middle {
+  position: relative;
+  top: 100px;
+  transition: width 2s;
+}
+
+/*.sm-title-middle:hover {
+ transform: translate(100px, 100px);
+}*/
+
+.sm-title-left {
+  font-family: Garamond, serif;
+  float:left;
+}
+.sm-title-right {
+  float:right;
+}
+
+.sm-para-container{
+  width: 100%;
+  font-size: 20px;
+}
+.sm-credit-container{
+  width: 100%;
+  font-size: 30px;
+}
+.sm-credit-container{
+  font-family: arial;
+}
+.sm-credit-left{
+  float: left;
+}
+.sm-credit-right{
+  float: right;
+}
+
+.sm-page-container{
+  font-size: 20px;
+  font-family: Garamond;
+  width: 100%;
+  float:right;
+}
+
+.sm-footer {
+  font-family: courier;
+  color:black;
+  margin-top: 100px;
+	padding: 30px;
+  width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.sm-colour--on {
+  background-color: black;
+  color: white;
+}
+
+
+/* MOVE SWITCH STYLING */
+
+@keyframes move-right-to-left {
+  0% {
+    margin-left: 0;
+  }
+
+  50% {
+    margin-left: -30vw;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+.sm-move--on .sm-title-middle .sm-right-to-left {
+  animation: move-right-to-left 5s ease infinite;
+}
+
