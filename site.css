@@ -1,14 +1,16 @@
 body {
   padding: 0;
-  
+
   width:100%;
   fontsize: 14px;
   line-height: 1.5;
- 
-  font-family: 'Impact', sans-serif;
-  color: black; 
-}
 
+  font-family: 'Impact', sans-serif;
+  color: black;
+}
+.sm-image {
+  width: 100%;
+}
 .sm-title-container {
   width: 100%;
   font-size: 50px;
@@ -102,5 +104,3 @@ body {
   border-color: #FFDB58;
   color: white;
 }
-
-
