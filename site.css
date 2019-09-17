@@ -8,11 +8,28 @@ body {
   font-family: 'Impact', sans-serif;
   color: black;
 }
-.sm-image {
+.sm-page {
   width: 100%;
+  overflow: hidden;
+  position:relative;
+}
+.sm-page-1 {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+.sm-image {
+width: 100%;
+}
+.sm-page-2 {
+  width: 50%;
+  float: left;
+  overflow: hidden;
 }
 .sm-title-container {
   width: 100%;
+  float:left;
   font-size: 50px;
   overflow: hidden;
 }
