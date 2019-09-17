@@ -5,7 +5,7 @@ body {
   fontsize: 14px;
   line-height: 1.5;
 
-  font-family: 'Impact', sans-serif;
+  font-family: 'Coda', sans-serif;
   color: black;
 }
 .sm-page {
@@ -39,7 +39,7 @@ img {
     .sm-page-1-container, .sm-page-2-container
     {
         display: block;
-        float: none; 
+        float: none;
         width: 100%;
     }
 }
