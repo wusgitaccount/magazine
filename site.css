@@ -18,10 +18,12 @@ body {
   float: left;
   overflow: hidden;
 }
-
 .sm-image {
 width: 100%;
+float: left;
+overflow: hidden;
 }
+
 .sm-page-2 {
   width: 50%;
   float: left;
