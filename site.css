@@ -34,6 +34,15 @@ img {
   float: left;
   overflow: hidden;
 }
+@media all and (max-width:800px)
+{
+    .sm-page-1-container, .sm-page-2-container
+    {
+        display: block;
+        float: none; 
+        width: 100%;
+    }
+}
 .sm-title-container {
   width: 100%;
   float:left;
@@ -120,11 +129,17 @@ img {
 }
 
 .sm-colour--on {
-  background-color: #FFDB58;
+  background: linear-gradient(270deg, #c24141, #4157c2);
+  background-size: 400% 400%;
   color: white;
+  animation: gradient 30s ease infinite;
 }
-
+@keyframes gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 .sm-colour--on .sm-button a {
-  border-color: #FFDB58;
+
   color: white;
 }
