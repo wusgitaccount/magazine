@@ -140,6 +140,46 @@ img {
     100%{background-position:0% 50%}
 }
 .sm-colour--on .sm-button a {
-
   color: white;
+}
+.sm-position--on .sm-credit-right {
+  float: left;
+}
+.sm-position--on .sm-title-middle {
+  font-size:150px;
+}
+@keyframes move-left-to-right {
+  0% {
+    margin-left: 0;
+  }
+
+  50% {
+    margin-left: 60vw;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+.sm-move--on .sm-page-1-image .sm-page-2-container {
+  animation: move-left-to-right 5s ease infinite;
+}
+
+@keyframes move-right-to-left {
+  0% {
+    margin-left: 0;
+  }
+
+  50% {
+    margin-left: -30vw;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+.sm-move--on .sm-page-1-container .sm-page-2-container {
+  animation: move-right-to-left 5s ease infinite;
 }
