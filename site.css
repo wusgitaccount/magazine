@@ -129,7 +129,7 @@ img {
 }
 
 .sm-colour--on {
-  background: linear-gradient(270deg, #c24141, #4157c2);
+  background: linear-gradient(270deg, #ffbd00, #9e8b56);
   background-size: 400% 400%;
   color: white;
   animation: gradient 30s ease infinite;
@@ -146,7 +146,7 @@ img {
   float: left;
 }
 .sm-position--on .sm-title-middle {
-  font-size:150px;
+
 }
 @keyframes move-left-to-right {
   0% {
@@ -162,7 +162,7 @@ img {
   }
 }
 
-.sm-move--on .sm-page-1-image .sm-page-2-container {
+.sm-move--on .sm-title-middle  {
   animation: move-left-to-right 5s ease infinite;
 }
 
@@ -178,8 +178,4 @@ img {
   100% {
     margin-left: 0;
   }
-}
-
-.sm-move--on .sm-page-1-container .sm-page-2-container {
-  animation: move-right-to-left 5s ease infinite;
 }
